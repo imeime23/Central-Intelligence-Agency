@@ -11,7 +11,7 @@ body {
 img {
   display: block;
   margin: 0 auto;
-  max-width: 100%;
+  max-width: 100%
 }
 
 /* Header styles */
@@ -42,6 +42,7 @@ ul {
   list-style: none;
   margin: 20px 0;
   padding: 0;
+  margin: 20px 40px;
 }
 
 li {
@@ -54,8 +55,13 @@ a {
 }
 
 a:hover {
-  color: #fff;
+  color: #cd6464;
   text-decoration: underline;
+}
+
+div {
+  margin: 20px 40px;
+  color: #cd6464;
 }
 
 /* Director image styles */
