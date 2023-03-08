@@ -1,3 +1,75 @@
-.directorImage {
-  float: right;
+/* Body styles */
+body {
+  background-color: #1c2023;
+  color: #d9d9d9;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
+
+/* Image styles */
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+/* Header styles */
+h1.important {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 50px 0 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2.intro {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 20px 0;
+  text-align: center;
+}
+
+/* Paragraph styles */
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 20px 40px;
+  text-align: justify;
+}
+
+ul {
+  list-style: none;
+  margin: 20px 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #c7c7c7;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* Director image styles */
+.directorImage {
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  max-width: 200px;
+}
+
+
+
+
+
+/* .directorImage {
+  float: right;
+} */
